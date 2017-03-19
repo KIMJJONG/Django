@@ -13,7 +13,7 @@ class Post(models.Model):
 
     class Meta:
         verbose_name = 'post'
-        verbose_name_plural = 'posts'dfd
+        verbose_name_plural = 'posts'
         db_table = 'my_post'
         ordering = ('-modify_date',)
 
